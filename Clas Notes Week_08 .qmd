@@ -1,0 +1,50 @@
+---
+title: "Class Notes for Week 08"
+author: "Wenting Jiang"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: 1
+    toc-location: right
+    embed-resources: true
+---
+
+# Introduction
+
+This class covered publishing Quarto websites and designing a research survey. The survey example focused on consumer responses to realistic advertising.
+
+# Publishing Quarto Websites
+
+GitHub repositories store project files, while GitHub Pages publishes them as a website. The repository URL (`github.com/username/repository`) is different from the website URL (`username.github.io`). Check the full Pages URL before sharing it.
+
+One publishing option is to render Quarto files into a `docs` folder, push the files to GitHub, and select the `main` branch and `/docs` folder under **Settings > Pages**. Another option is to use `quarto publish`. Netlify can also connect to GitHub and automatically render and publish updated `.qmd` files.
+
+A multi-page Quarto website commonly includes a `_quarto.yml` configuration file and an `index.qmd` home page.
+
+# Survey Design
+
+## Constructs and measures
+
+The example study examined responses to realistic advertising, including a Billie razor advertisement. The model included perceived behavioral control, subjective norms, behavioral intention, need for cognition, civic consciousness, and social community engagement.
+
+Researchers can find existing measures in journal articles, Google Scholar, and library databases. For each measure, record its definition, survey items, response scale, and source. Cronbach’s alpha is commonly used to assess reliability; .70 is a general guideline.
+
+## Questionnaire structure
+
+Plan the question order and group related questions into sections so the survey is clear and easy to complete. The example survey asked about shopping and razor use, price, past purchases, brand awareness, information sources, and responses to realistic advertising. Display logic can show follow-up questions based on earlier answers.
+
+The study considered comparing realistic and idealized advertisements, but the final survey used a realistic Billie advertisement. Participants answered questions about their attitudes toward the ad and brand, prior experience, and ad preferences.
+
+# Consent and Qualtrics
+
+The survey introduction explained that participation was voluntary, responses were anonymous, and there were no right or wrong answers. It provided researcher and IRB contact information, participant instructions, and the applicable IRB protocol number. Participants were asked to consent before continuing.
+
+The Qualtrics survey was organized into blocks for the introduction, consent, commitment question, and survey sections. It captured a Prolific participant ID so responses could be matched. Required-response settings and skip/display logic helped manage eligibility and survey flow. The survey also asked participants to commit to thoughtful answers; those who declined were routed to the end.
+
+Qualtrics can store numeric recode values for answer options even when only the endpoints of a scale are displayed.
+
+# Course Resource
+
+- [CEP Presentation Coordination document](https://livecsupomona-my.sharepoint.com/:w:/r/personal/jmjung_cpp_edu/Documents/Documents/Work/Jaemin/4.%20Teaching/IBM6500/Admin/CEP%20Presentation%20Coordination.docx?d=w956754dd10c54658bb747534ce7f71a5&csf=1&web=1&e=B516Qq)
