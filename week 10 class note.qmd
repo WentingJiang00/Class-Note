@@ -1,0 +1,49 @@
+---
+title: "Week 10 Class Notes"
+author: "Wenting Jiang"
+date: "October 29, 2026"
+format: html
+---
+
+## Guest Speaker: Travis from PureSpectrum
+Travis from PureSpectrum introduced career opportunities in the market research and insights industry. Students can begin at a research agency, a data collection vendor, or a brand company. Gaining experience with surveys, data collection, and analysis can lead to roles such as project manager or eventually starting a business.
+
+Students can join the Insights Association for free. Membership offers networking opportunities, industry events, career information, and possible support for attending conferences. Travis invited interested students to contact him through LinkedIn or email.
+
+Technology has made market research much faster. Projects that once took two or three weeks can now take only a few days, and some steps can be automated. AI can help with survey programming, data analysis, and report writing, but researchers still need to check the sample, questionnaire, and results.
+
+Synthetic data and AI-moderated interviews are growing, but their uses are still limited. They cannot replace real respondents or all traditional market research.
+
+To encourage people to take surveys, researchers should identify the right audience and engage them in a natural conversation. Simply asking people to complete a survey often gets a low response rate.
+
+Travis also recommended looking for internships and, when possible, working in person with experienced colleagues. This can help students learn research skills and professional workplace practices more quickly.
+
+## CP Project Feedback and Assignments
+
+Some assignments related to the CP group project were moved to **Excluded Assignments** and will not be graded separately. They remain useful guides, and their work will be reflected in the final report and presentation. The final project grade will focus on the report, presentation, and Chapter 3.
+
+After receiving feedback from the faculty lead, each group should list the revisions, assign a person to each task, and make a plan. Groups should ask for clarification or request a meeting if they have questions or a different perspective.
+
+## Analytics Objectives and Methods
+
+For each analytics objective (AO), explain the method, why it is appropriate, and which variables will be used. Variables may include independent, dependent, and control variables. Research questions or hypotheses from Chapter 2 can help organize the analysis plan.
+
+If an analysis focuses on one variable, descriptive statistics may be appropriate. If it examines a relationship between variables, identify the variables and explain their roles. Also explain how each concept is measured, such as which survey question measures it.
+
+Variables can use nominal, ordinal, interval, or ratio scales. The measurement scale affects which statistical methods are appropriate. Each group should confirm with its faculty lead that the analytics objectives support the project objectives (POs) and that the proposed methods are suitable.
+
+## Data Preparation and Chapter 3
+
+Data preparation includes checking data quality, missing values, variable types, and labels, and organizing the data for analysis. Groups can test the preparation process with partial data and replace it with the complete dataset later.
+
+Survey data can be read from SPSS files in R using the `haven` package. Survey data may require checks of variable labels, value labels, and missing values. Secondary data, such as GA4 data, may not have survey labels, but it still needs to be checked and organized.
+
+Chapter 3 should describe the data source, time period, number of records or participants, variables, and analysis methods. For survey data, describe available participant characteristics, such as age, gender, income, ethnicity, or occupation. For secondary data, describe the available information, such as the time period and number of records or events. Include a link to the data in the report appendix.
+
+The instructor will use a case study to teach data preparation and analysis planning. Students can review the answer key and apply the process to their group projects. The goal is to make sure the selected data are sufficient to address the analytics objectives.
+
+## Course Planning
+
+Some assignments will remain as learning guides but will not be graded separately. Groups that are not conducting surveys may be excused from assignments that require survey data. They should still complete relevant individual work and apply the methods to their group project when their data are ready.
+
+The instructor proposed creating a dedicated three-credit course for CP project advising because project guidance adds substantial work to the current courses. The proposal would require university approval, and the earliest possible start would be Fall 2028. Possible program emphases may be organized around content and creative work, technology and performance, and data and analytics.
