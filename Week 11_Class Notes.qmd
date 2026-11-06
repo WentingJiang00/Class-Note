@@ -1,0 +1,28 @@
+---
+title: "Week 11 Class Notes"
+author: "Wenting Jiang"
+date: "November 5, 2026"
+format: html
+---
+
+## Planning an Analysis
+
+Start with an analytics objective (AO), research question (RQ), or hypothesis (H). Identify the main concepts, explain how they are measured, and list the variables needed for the analysis. A variable’s role depends on the research question: it may be an independent variable that explains or predicts an outcome, or a dependent variable that the analysis aims to explain.
+
+Choose a statistical method that fits the research question, the number and type of variables, and their measurement scales. For example, a one-sample t-test can compare the mean of one sample with a reference value. The class example used one group with 12 observations. A correlation near zero suggests little or no linear relationship between two variables. When there are multiple related dependent variables, a multivariate method such as MANOVA may be appropriate.
+
+## Measurement Scales and Operationalization
+
+Variables can be measured on nominal, ordinal, interval, or ratio scales. Nominal data are categories without a meaningful order. Ordinal data have an order, but the distances between values may not be equal. Interval data have equal, meaningful differences but no true zero; for example, 0°C does not mean there is no temperature. Ratio data have equal intervals and a meaningful zero.
+
+Operationalization explains how a concept is measured. For a survey, identify the specific question or questions used to measure each concept, such as Q7. The scale of each measure affects which statistical tests are suitable. If equal distances between response options cannot be justified, treating the measure as ordinal is a more conservative choice.
+
+## BigQuery and Data Preparation
+
+Google Cloud BigQuery is a cloud-based tool for accessing and analyzing large datasets. The instructor demonstrated opening BigQuery through Google Cloud and locating sample data. A Google account is needed to access the service. Large datasets, including CSV files, may take time to download and analyze, so review the dataset and its variables before beginning analysis.
+
+## Quarto Presentation Features
+
+In a Quarto RevealJS presentation, first-level headings (`#`) introduce sections and second-level headings (`##`) create slides within a section. Code chunk options control what appears in the presentation. For example, `echo: false` hides the code while showing its output; `echo: true` displays both the code and output.
+
+Figure options can add captions and control figure placement. Use unique labels with the `fig-` prefix for figures and the `tbl-` prefix for tables. Use tables and visualizations that fit the analysis, such as a distribution plot to show how values are spread across observations.
